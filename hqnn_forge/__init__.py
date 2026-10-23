@@ -3,8 +3,8 @@ hqnn_forge
 ==========
 Parameter-efficient Hybrid Quantum Neural Networks for imbalanced tabular classification.
 
-Public API surface — The top-level package re-exports solely __version__, so import
-the most commonly used symbols from their specific subpackages as below:
+Public API surface — the top-level package exports only __version__, so import the most
+commonly used symbols from their subpackages:
 
     from hqnn_forge.encoding  import QuantumEncodingLayer
     from hqnn_forge.models    import HybridBinaryClassifier
